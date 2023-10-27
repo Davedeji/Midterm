@@ -7,7 +7,7 @@ RUN apk add --update git
 WORKDIR /app
 
 # Clone the git repository
-RUN git clone https://github.com/Davedeji/devopsMidterm.git .
+RUN git clone https://github.com/Davedeji/Midterm.git .
 
 # Install node dependencies
 RUN npm install express
